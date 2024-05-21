@@ -1,7 +1,7 @@
 
 const myButton = document.getElementById("myButton");
 const myImg = document.getElementById("myImg");
-
+/*
 myButton.addEventListener("click", event => {
     if (myImg.style.display === "none") {
         myImg.style.display = "block";
@@ -11,8 +11,8 @@ myButton.addEventListener("click", event => {
         myImg.style.display = "none";
         myButton.textContent = "show";
     }
-})
-/*
+}) */
+
 myButton.addEventListener("click", event => {
     if (myImg.style.visibility === "hidden") {
         myImg.style.visibility = "visible";
@@ -22,4 +22,4 @@ myButton.addEventListener("click", event => {
         myImg.style.visibility = "hidden";
         myButton.textContent = "show";
     }
-}) */
+}) 
